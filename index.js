@@ -30,7 +30,7 @@ app.use(cookieParser());
 
 // CORS FIX (must be before routes)
 const corsOptoins = {
-  origin: "https://blogging-platformapplication.netlify.app",
+  origin: "https://bloggingplatformapplication.netlify.app/",
       methods: ["GET", "POST", "PUT","PATCH", "DELETE"],
 
 
